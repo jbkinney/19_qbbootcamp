@@ -32,3 +32,11 @@ Students are asked to install the Anaconda distribution of Python 3.7 on their o
 1. To run a notebook type `jupyter notebook` at the command line and hit enter. This will open up a web browser window. Then click on the name of the notebook that you would like to run. 
 
 The Anaconda distribution of Python 3.7 is also available here: https://www.anaconda.com/distribution/
+## BNB exercise
+To download bnb_exercise.tar.gz to BNB, execute:
+
+```wget --no-check-certificate "https://github.com/jbkinney/19_qbbootcamp/raw/master/bnb_exercise.tar.gz"```
+
+Then to unpack, execute:
+
+```tar -zxvf bnb_exercise.tar.gz```
