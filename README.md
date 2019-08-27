@@ -20,7 +20,7 @@ Schedule:
 - Day 2: Thursday, August 29, Plimpton (Beckman), 10am - 5pm
 - Day 3: Friday, August 30, Plimpton (Beckman), 2pm - 6pm
 
-QB course syllabus: 
+QB course syllabus: [qb_syllabus.pdf](qb_syllabus.pdf)
 
 ## Installing Python 3.7 (Mac)
 
