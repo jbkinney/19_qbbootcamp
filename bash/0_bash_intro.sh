@@ -29,15 +29,15 @@ cd ~
 pwd
 ls
 
-# Change to ~/Desktop/qb_bootcamp directory
-cd ~/Desktop/18_qbbootcamp-master
+# Change to QB Bootcamp directory
+cd ~/Desktop/19_qbbootcamp-master
 pwd
 
 # Delete a directory
 ls
 mkdir test_dir
 ls
-rm -r testdir
+rm -r test_dir
 ls
 
 # Create a file with text in it
@@ -84,18 +84,18 @@ tail 1ema.pdb
 # Compute size of file
 wc 1ema.pdb
 wc -l 1ema.pdb
-wc *
-wc *.pdb
 
 # Find only lines that begin with atom
 grep ATOM 1ema.pdb
 
 # Pipe
 cat 1ema.pdb | grep ATOM 
+
+# Let's use less to look at the output
 cat 1ema.pdb | grep ATOM | less
+
 # So it appears that this grabs "REMARK" lines and "ATOM" lines. Remove the remarks
 cat 1ema.pdb | grep ATOM | grep -v REMARK | less
-# Use 'G' to go to end of file, 'g' to go to start of file, 'q' to exit
 
 # Grab columns 4 and 6
 cat 1ema.pdb | grep ATOM | grep -v REMARK | awk '{print $4,$6}' | less
